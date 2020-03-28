@@ -1,0 +1,38 @@
+<tree>
+    <node name="A" value="1854">
+        <node name="B" value="1990s">
+            <node name="B" value="1991">
+                <node name="B" value="1992">
+                    <node name="B" value="1993">
+                        <node name="B" value="1994">
+                            <node name="B" value="1995"></node>
+                        </node>
+                    </node>
+                </node>
+            </node>
+        </node>
+    </node>
+    <node name="C" value="1882">
+        <node name="D" value="1949">
+            <node name="E" value="2008"></node>
+            <node name="F" value="2008"></node>
+        </node>
+    </node>
+    <node name="G" value="1814">
+        <node name="H" value="1990s">
+            <node name="I" value="2012">
+                <node name="J" value="2010">
+                    <node name="K" value="42"></node>
+                    <node name="O" value="42"></node>
+                </node>
+            </node>
+        </node>
+        <node name="L" value="54"></node>
+        <node name="M" value="19">
+            <node name="N" value="0">
+                <node name="K" value="25"></node>
+            </node>
+        </node>
+    </node>
+    <node name="X" value="2010"></node>
+</tree>
