@@ -36,6 +36,8 @@ public class BinaryTreeStreamingContext<TConfig extends BinaryTreeConfig> extend
         DataType schema = sparkSession.read().format("com.databricks.spark.xml")
                 .option("rowTag", "tree")
                 .load(config.getLocalFileField()).schema();
+        
+        //TODO: Schema field validation
 
         Dataset<Row> df = sparkSession.read().format("com.databricks.spark.xml")
                 .option("rowTag", "tree")
