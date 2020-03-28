@@ -14,8 +14,8 @@ public class BinaryTreeConfig extends BaseConfig {
 
     BinaryTreeConfig(Properties properties) {
         super(properties);
-        localInputFile = properties.getProperty(LOCAL_INPUT_FILE_FIELD);
-        searchingNodeName = properties.getProperty(SEARCHING_NODE_NAME_FIELD);
+        this.localInputFile = properties.getProperty(LOCAL_INPUT_FILE_FIELD);
+        this.searchingNodeName = properties.getProperty(SEARCHING_NODE_NAME_FIELD);
     }
 
 

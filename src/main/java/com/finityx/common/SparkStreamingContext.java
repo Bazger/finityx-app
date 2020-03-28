@@ -26,7 +26,7 @@ public class SparkStreamingContext<TConfig extends BaseConfig> {
                 appName,
                 sparkSession.sparkContext().applicationId()));
 
-        config = (TConfig) configProvider.create(loadConfig(configPath));
+        this.config = (TConfig) configProvider.create(loadConfig(configPath));
     }
 
     //For local config file only
@@ -39,7 +39,7 @@ public class SparkStreamingContext<TConfig extends BaseConfig> {
 
     void process() {
         processFrame();
-        sparkSession.stop();
+        this.sparkSession.stop();
     }
 
     protected void processFrame() {

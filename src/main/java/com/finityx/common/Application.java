@@ -29,7 +29,7 @@ public class Application<TContext extends StreamingContextProvider> {
     }
 
     private void doBatch(String[] args) {
-        context.process();
+        this.context.process();
     }
 
 
